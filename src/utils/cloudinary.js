@@ -1,6 +1,6 @@
 import { v2 as cloudinary} from "cloudinary";
 import fs from 'fs'
-import { loadEnvFile } from "process";
+
 
 cloudinary.config({ 
     cloud_name: process.env.CLOUDINARY_CLOUD_NAME, 
@@ -28,3 +28,5 @@ cloudinary.config({
     
  }
   }
+
+  export {uploadOnCloudinary}
